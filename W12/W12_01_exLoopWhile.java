@@ -166,14 +166,23 @@ public class W12_01_exLoopWhile {
 //คำสั่ง 4 ให้แสดงผลลัพธ์ดังนี้
 // ===============
 // 1 3 5 7 9 11 13 15 17 19
-
+    System.out.println("TODO 7 For Loop");
         System.out.println();
         for (int j = 1; j <= 19; j +=2) {
             //คำสั่งที่เราต้องทำ
             System.out.print(j + " ");
         }
+    System.out.println("\n----------------------------------------");
 
-
+    System.out.println("TODO 7 While Loop");
+        System.out.println();
+        int n7 = 1;
+        while (n7 <= 19) {
+            //คำสั่งที่เราต้องทำ
+            System.out.print(n7 + " ");
+            n7 += 2;
+        }
+    System.out.println("\n============================================");
 // ======================================================================
 
 // TODO 8
@@ -229,15 +238,28 @@ public class W12_01_exLoopWhile {
 // รอบที่ 4 เลขคู่
 // รอบที่ 5 เลขคี่
 
-        System.out.println();
-        for (int j = 1; j <= 5; j++) {
-            if(j%2==0){
-                System.out.println("รอบที่ " + j + " เลขคู่");
-            }else{
-                System.out.println("รอบที่ " + j + " เลขคี่");
+    System.out.println("TODO 10 For Loop");     
+    System.out.println();
+    for (int j = 1; j <= 5; j++) {
+        if(j%2==0){
+            System.out.println("รอบที่ " + j + " เลขคู่");
+        }else{
+            System.out.println("รอบที่ " + j + " เลขคี่");
             }
         }
+    System.out.println("\n----------------------------------------");
 
+        System.out.println("TODO 10 While Loop");
+        int n10 = 1;
+        while (n10 <= 5){
+        if(n10%2==0){
+            System.out.println("รอบที่ " + n10 + " เลขคู่");
+        }else{
+            System.out.println("รอบที่ " + n10 + " เลขคี่");
+            }
+        n10++;
+    }
+    System.out.println("\n============================================");
 // ======================================================================
  }
 }

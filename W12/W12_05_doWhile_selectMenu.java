@@ -22,7 +22,7 @@ public class W12_05_doWhile_selectMenu {
             System.out.println(" Enter your choice: ");
             choice = kb.nextInt();
             // ตรวจสอบเมนูที่ผู้ใช้เลือก
-            switch (choice = 1) {
+            switch (choice) {
                 case 1:     // ถ้าผู้ใช้เลือก 1
                     System.out.print("Enter the first number: ");
                     int num1 = kb.nextInt();
@@ -40,7 +40,7 @@ public class W12_05_doWhile_selectMenu {
                     int num3 = kb.nextInt();
                     System.out.print("Enter the second number: ");
                     int num4 = kb.nextInt();
-                    sum = num3 - num4;
+                    int difference = num3 - num4;
                     System.out.println("The difference is " + difference);
                     break;
                 case 3:
